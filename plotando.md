@@ -14,6 +14,8 @@ df['coluna'].plot(kind='hist');
 # barras
 Fazendo a contagem para colunas de fatores
 df['coluna_fator'].value_counts()
+df.set_xlabel("rotulo de X")
+df.set_ylabel("rotulo de Y")
 
 fazendo o plot
 df['coluna_fator'].value_counts().plot(kind='bar');
